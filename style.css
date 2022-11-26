@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Anton-Regular.ttf) format(truetype);
+}
+
+
+a, #myJob, .definitions h4 {
+    color: #ff0099;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: 0 10%;
+}
+
+.right-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-family: myFirstFont;
+}
+
+img {
+    padding: 10px 0;
+}
+
+.main-section {
+    padding: 0 10%;
+    background-image: url("background.webp");
+    padding-bottom: 10%;
+    font-family: consolas, courier;
+}
+
+#myName {
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 300%;
+    margin-top: 0px;
+}
+
+#myJob {
+    font-size: 200%
+}
+
+.aboutMe {
+    font-size: 150%;
+    line-height: 1.5;
+}
+
+#separator, #definitionTitle {
+    text-align: center;
+    font-size: 250%;
+}
+
+
+h4 {
+    font-size: 130%;
+}
+
